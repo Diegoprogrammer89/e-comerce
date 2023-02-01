@@ -11,6 +11,7 @@ function BurguerButton(props) {
         <span></span>
         <span></span>
       </div>
+   
     </Burguer>
   )
 }
@@ -23,6 +24,7 @@ const Burguer = styled.div`
   width: 35px;
   height: 30px;
   margin: 10px 10px;
+
   position: relative;
   cursor: pointer;
   display: inline-block; 
