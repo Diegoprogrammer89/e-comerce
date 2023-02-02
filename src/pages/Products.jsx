@@ -63,7 +63,7 @@ useEffect( () => {
   
   return (
     <div>
-        <h1 className="titel">Products</h1>
+        {/* <h1 className="titel">Products</h1> */}
        <div className="Botonera">{categorie.map((category) => (
         <Button 
           key={category.id}

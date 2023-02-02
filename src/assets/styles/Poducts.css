@@ -91,7 +91,7 @@ margin-top: 5em;
     *{
      
      box-sizing: border-box;
-     max-width: 100%;
+     max-width: 490px;
     } 
     .Botonera{
         
@@ -100,7 +100,11 @@ margin-top: 5em;
         margin: 2em 0;
         height: 90px;
         width: 100%;
+
         
+    }
+    .btn{
+        margin: 1em 0.2em 0;
     }
     .filter{
         width: 100%;
@@ -116,6 +120,11 @@ margin-top: 5em;
     
     
     }
+    .container__cards{
+     width: 90%;   
+     padding: 0;
+     /* margin: 2em ; */
+    }
     .butt{
        width: 95%;
         margin: 0;
@@ -129,5 +138,20 @@ margin-top: 5em;
     }
     .jFltKx{
         width: 90%;
+    }
+    .Products{
+        /* margin-left: 2em; */
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        /* margin: 1em; */
+    }
+    .row{
+        
+        max-width:399px;
     }
 }
